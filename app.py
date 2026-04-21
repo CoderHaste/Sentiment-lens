@@ -394,7 +394,7 @@ if st.session_state.history:
         st.markdown(f"""
         <div class="hist-item">
             <span class="hist-text">{short}</span>
-            <span class="hist-badge {item['cls']}">{item['label']} · {item['pct']:.0%}</span>
+            <span class="hist-badge {item.get('cls', 'pos')}">{item['label']} · {item.get('pct', 0):.0%}</span>
         </div>
         """, unsafe_allow_html=True)
 

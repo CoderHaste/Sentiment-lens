@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter notebooks checkpoints (just in case)
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (ignore if NOT uploading)
+*.h5
+*.keras
+
+# Optional: ignore model folder entirely
+model/
+
+# Streamlit cache
+.streamlit/
+
+# VS Code / IDE
+.vscode/
+.idea/
